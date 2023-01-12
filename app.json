@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sylver",
-    "slug": "sylver",
+    "name": "SylverGPT",
+    "slug": "SylverGPT",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cadenchorlog.SylverGPT"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.cadenchorlog.SylverGPT"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "71c441fa-3d38-4bce-9e31-04396e3f9679"
+      }
     }
   }
 }
